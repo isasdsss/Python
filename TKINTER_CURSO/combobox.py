@@ -12,6 +12,9 @@ def obter():
     resultado = combo.get()
     label_resultado.config(text=f'Sua escolha: {resultado}')  # Atualiza o Label
 
+
+#label da pergunta
+
 label_pais = Label(janela, text='Defina o melhor país: ', width=20, height=2, font='Arial 10 bold' )
 label_pais.grid(row=0, column=0, pady=10, padx=10 )
 
