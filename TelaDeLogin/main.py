@@ -87,4 +87,5 @@ e_senha.place(x=14, y=125)
 b_confirmar = Button(frame_baixo,command=verificar_senha, text='Enviar', width=40, height=2, bg='purple', fg='white', font='Ivy 8 bold', relief='raised', overrelief='ridge')
 b_confirmar.place(x=10, y=180)
 
+
 janela.mainloop()
